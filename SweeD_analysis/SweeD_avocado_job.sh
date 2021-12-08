@@ -1,9 +1,9 @@
 #!/bin/bash -l
 #SBATCH --job-name=SweeD_avo
 #SBATCH -p gcluster
-#SBATCH -n 10
+#SBATCH -n 2
 #SBATCH -N 1
-#SBATCH --mem=50G
+#SBATCH --mem=200G
 #SBATCH --mail-type=all
 
 # Make sure we start in the right place
@@ -18,7 +18,7 @@ for i in $(cat pops.list)
 do 
     mkdir -p ${i}
     cd ${i}
-    /gpool/amc/programs/sweed_v4.0.0/SweeD-P -name ${i}.10k -input /gpool/swyant/projects/avo_ref_paper/SweeD_analysis/vcfs_uncompressed/Pamericana_gwen.filtered.SNPs.${i}.vcf -reports -threads 10 -grid 10000
+    /gpool/amc/programs/sweed_v4.0.0/SweeD-P -name ${i}.10k -input /gpool/swyant/projects/avo_ref_paper/SweeD_analysis/vcfs_uncompressed/Pamericana_gwen.filtered.SNPs.${i}.vcf -reports -threads 2 -grid 10000
     cd ../ 
 done
 

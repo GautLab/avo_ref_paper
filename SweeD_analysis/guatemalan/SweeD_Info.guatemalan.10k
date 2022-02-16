@@ -1,0 +1,248 @@
+
+
+                                      _______________
+
+                                           SweeD
+                                      _______________
+
+
+
+ SweeD version 4.0.0 released by Nikolaos Alachiotis and Pavlos Pavlidis in July 2018.
+ Code contributions by Antonis Kioukis and Aggelos Koropoulis.
+
+
+ Command:
+
+	 /gpool/amc/programs/sweed_v4.0.0/SweeD-P -name guatemalan.10k -input /gpool/swyant/projects/avo_ref_paper/SweeD_analysis/vcfs_uncompressed/Pamericana_gwen.filtered.SNPs.guatemalan.vcf -reports -threads 10 -grid 10000
+
+
+
+ Input file format (0:ms, 1:fasta, 2:macs, 3:vcf, 4:sf, 5:mbs): 3
+ Total number of samples in the VCF:	10
+ Samples excluded from the analysis:	0
+
+
+ Alignment 1
+
+		Chromosome:		Chr3
+		Sequences:		20
+		Sites:			3154606
+		Discarded sites:	1344997
+		Kept sites:	1809609
+
+		Processing:		1326.99 seconds
+
+		Position:		2.399841e+07
+		Likelihood:		1.787358e+03
+		StartPos:		2.272649e+07
+		EndPos:			2.527035e+07
+		Alpha:			9.431788e-06
+
+
+ Alignment 2
+
+		Chromosome:		Chr8
+		Sequences:		20
+		Sites:			1721783
+		Discarded sites:	927522
+		Kept sites:	794261
+
+		Processing:		784.89 seconds
+
+		Position:		4.731598e+07
+		Likelihood:		3.192806e+03
+		StartPos:		4.518695e+07
+		EndPos:			4.876942e+07
+		Alpha:			5.635610e-06
+
+
+ Alignment 3
+
+		Chromosome:		Chr4
+		Sequences:		20
+		Sites:			1558600
+		Discarded sites:	550592
+		Kept sites:	1008008
+
+		Processing:		896.02 seconds
+
+		Position:		4.519213e+07
+		Likelihood:		1.722092e+03
+		StartPos:		4.415470e+07
+		EndPos:			4.623006e+07
+		Alpha:			1.156019e-05
+
+
+ Alignment 4
+
+		Chromosome:		Chr10
+		Sequences:		20
+		Sites:			1770791
+		Discarded sites:	853700
+		Kept sites:	917091
+
+		Processing:		773.16 seconds
+
+		Position:		1.335881e+07
+		Likelihood:		5.144073e+03
+		StartPos:		7.201775e+06
+		EndPos:			1.951581e+07
+		Alpha:			1.948982e-06
+
+
+ Alignment 5
+
+		Chromosome:		Chr5
+		Sequences:		20
+		Sites:			2469403
+		Discarded sites:	1095618
+		Kept sites:	1373785
+
+		Processing:		3107.51 seconds
+
+		Position:		2.177988e+07
+		Likelihood:		1.886408e+03
+		StartPos:		1.973989e+07
+		EndPos:			2.381988e+07
+		Alpha:			5.882318e-06
+
+
+ Alignment 6
+
+		Chromosome:		Chr1
+		Sequences:		20
+		Sites:			2937933
+		Discarded sites:	1553008
+		Kept sites:	1384925
+
+		Processing:		1029.83 seconds
+
+		Position:		2.792173e+07
+		Likelihood:		3.609444e+03
+		StartPos:		2.463683e+07
+		EndPos:			3.120301e+07
+		Alpha:			3.652959e-06
+
+
+ Alignment 7
+
+		Chromosome:		Chr9
+		Sequences:		20
+		Sites:			1572519
+		Discarded sites:	740060
+		Kept sites:	832459
+
+		Processing:		663.75 seconds
+
+		Position:		3.117967e+07
+		Likelihood:		1.963271e+03
+		StartPos:		2.792780e+07
+		EndPos:			3.441789e+07
+		Alpha:			3.690170e-06
+
+
+ Alignment 8
+
+		Chromosome:		Chr2
+		Sequences:		20
+		Sites:			2891744
+		Discarded sites:	1163431
+		Kept sites:	1728313
+
+		Processing:		1300.94 seconds
+
+		Position:		4.348139e+07
+		Likelihood:		4.269542e+03
+		StartPos:		4.059417e+07
+		EndPos:			4.634986e+07
+		Alpha:			4.156221e-06
+
+
+ Alignment 9
+
+		Chromosome:		Chr7
+		Sequences:		20
+		Sites:			2205988
+		Discarded sites:	858087
+		Kept sites:	1347901
+
+		Processing:		1147.78 seconds
+
+		Position:		2.998545e+07
+		Likelihood:		3.960558e+03
+		StartPos:		1.909902e+07
+		EndPos:			4.087203e+07
+		Alpha:			1.102268e-06
+
+
+ Alignment 10
+
+		Chromosome:		Chr11
+		Sequences:		20
+		Sites:			1659731
+		Discarded sites:	843453
+		Kept sites:	816278
+
+		Processing:		630.57 seconds
+
+		Position:		2.132638e+07
+		Likelihood:		8.196465e+03
+		StartPos:		1.759269e+07
+		EndPos:			2.508218e+07
+		Alpha:			3.194836e-06
+
+
+ Alignment 11
+
+		Chromosome:		Chr6
+		Sequences:		20
+		Sites:			1783137
+		Discarded sites:	723204
+		Kept sites:	1059933
+
+		Processing:		834.95 seconds
+
+		Position:		4.121918e+07
+		Likelihood:		2.262373e+03
+		StartPos:		4.014316e+07
+		EndPos:			4.229521e+07
+		Alpha:			1.115201e-05
+
+
+ Alignment 12
+
+		Chromosome:		Chr12
+		Sequences:		20
+		Sites:			1133931
+		Discarded sites:	593600
+		Kept sites:	540331
+
+		Processing:		1815.52 seconds
+
+		Position:		1.680400e+05
+		Likelihood:		5.959347e+03
+		StartPos:		2.890000e+02
+		EndPos:			1.340024e+06
+		Alpha:			2.513443e-06
+
+
+ Alignment 13
+
+		Chromosome:		ChrU
+		Sequences:		20
+		Sites:			7340016
+		Discarded sites:	1665230
+		Kept sites:	5674786
+
+		Processing:		4229.00 seconds
+
+		Position:		1.517980e+08
+		Likelihood:		3.062181e+03
+		StartPos:		1.414058e+08
+		EndPos:			1.621925e+08
+		Alpha:			1.154448e-06
+
+
+ Total elapsed time 18541.00 seconds.
+
+

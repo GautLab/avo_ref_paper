@@ -30,7 +30,9 @@ for (i in 1:length(pops)) {
   write.table(top1, top1_filename, quote=F)
   write.table(top5, top5_filename, quote=F)
   
-  # Plotting 
+  sweep_smoothdf_nou <- sweep_smoothdf[sweep_smoothdf$chr < 13, ]
+  
+  # Plotting with chrU
   ggplot(data=sweep_smoothdf, aes(x=mid/1000000,y=sweep_loess)) + 
     geom_line(size=0.5, linejoin="bevel", color="black") +
     theme_few() +
@@ -43,6 +45,21 @@ for (i in 1:length(pops)) {
     ggtitle(pops[i]) -> plot
   
   plot_file <- file.path(paste0("SweeD_output/", pops[i], ".SweeD.loess.q99-95.pdf"))
+  ggsave(plot_file, plot, height=4, width=15)
+  
+  # Plotting without chrU
+  ggplot(data=sweep_smoothdf_nou, aes(x=mid/1000000,y=sweep_loess)) + 
+    geom_line(size=0.5, linejoin="bevel", color="black") +
+    theme_few() +
+    theme(axis.text.x = element_text(angle = 90, hjust = 1,size = 10))  +
+    xlab("Position (Mb)") +
+    ylab("SweeD CLR (loess)") +
+    facet_wrap(~chr, scales="free_x", nrow=2) +
+    geom_hline(yintercept = q99, linetype="dashed", color="red") + 
+    geom_hline(yintercept = q95, linetype="dashed", color="blue") + 
+    ggtitle(pops[i]) -> plot
+  
+  plot_file <- file.path(paste0("SweeD_output/", pops[i], ".SweeD.loess.q99-95.noU.pdf"))
   ggsave(plot_file, plot, height=4, width=15)
 }
 

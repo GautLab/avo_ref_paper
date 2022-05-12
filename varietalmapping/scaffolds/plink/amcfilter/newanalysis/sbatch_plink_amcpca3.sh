@@ -1,0 +1,1 @@
+../sbatch_plink_amcpca3.sh

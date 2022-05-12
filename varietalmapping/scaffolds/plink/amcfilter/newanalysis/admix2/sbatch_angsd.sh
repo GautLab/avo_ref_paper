@@ -1,0 +1,1 @@
+../../../../../../varietalmapping/plink/angsd/sbatch_angsd.sh
